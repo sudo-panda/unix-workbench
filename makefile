@@ -4,6 +4,7 @@ readme:
 	@echo "## Unix Workbench" > README.md
 	@echo "" >> README.md
 	@echo "This file was generated on $(shell date)" >> README.md
+	@echo "" >> README.md
 	@echo "No of lines in \`guessinggame.sh\` is **$(shell cat ./guessinggame.sh | wc -l)**" >> README.md
 
 clean:
