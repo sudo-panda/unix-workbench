@@ -1,4 +1,4 @@
-readme:
+readme: guessinggame.sh
 	@echo "Creating README.md"
 	@touch README.md
 	@echo "## Unix Workbench" > README.md

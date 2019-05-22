@@ -1,5 +1,9 @@
 #!/bin/bash
-FILES=$(ls -p | grep -v / | wc -l)
+function no_of_files() {
+	FILES=$(ls -p | grep -v / | wc -l)
+}
+
+no_of_files
 TRIES=1
 
 while  [ $TRIES -ne -1 ]
